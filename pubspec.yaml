@@ -1,0 +1,27 @@
+name: qibla_compass
+description: Cross-platform Qibla compass with Kaaba center and optional map fallback + calibration helper. iOS, Android, Web.
+version: 0.0.1
+homepage: https://github.com/abqamar/qibla_compass
+repository: https://github.com/abqamar/qibla_compass
+issue_tracker: https://github.com/abqamar/qibla_compass/issues
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  geolocator: ^12.0.0
+  flutter_compass: ^0.8.0
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lints: ^4.0.0
+
+flutter:
+  assets:
+    - assets/kaaba.png
